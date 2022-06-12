@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FFF5EB;
+    font-family: 'Lato', sans-serif;
+}
+
+/* FONDO */
+
+.fondo{
+    width: 100%;
+    height: 60vh;
+    background: url(Untitled-1-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texto-fondo h1{
+    text-align: center;
+    color: #FFF5EB;
+    font-weight: 700;
+    font-size: 55px;
+    padding: 15px;
+    border-bottom: 2px solid #F6F7D3;
+    border-top: 2px solid #F6F7D3;
+    
+}
+
+/* Primera seccion */
+
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: #F6E0B3;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.message{
+    width: 700px;
+    align-self: center;
+    padding: 5px;
+}
+
+.message h2{
+    font-size: 30px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.message p{
+    padding: 10px;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.musica{
+    width: 500px;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* Musica */
+
+
+.item-musica{
+    width: 350px;
+    height: 470px;
+    margin: 20px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #4E4E4E;
+   }
+
+  .music__texts{
+   margin: 10px auto;
+   padding: 10px;
+   text-align: center;
+   color: #F6E0B3;
+   align-self: center;
+  }
+
+.music__texts h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.music__texts h3{
+    margin-top: 10px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.music__img img{
+   width: 300px;
+   display: block;
+   margin: auto;
+   align-self: center;
+}
+
+.audio{
+    display: none;
+}
+
+.music__controls{
+    margin: auto;
+    text-align: center;
+}
+
+.music__btn i{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #4E4E4E;
+    background: #F6E0B3;
+    margin-top: 20px;
+}
+
+.music__btn .hide{
+    display: none;
+}
+
+/*Regalos*/
+
+.content-regalos{
+    width: 100%;
+    height: 100%;
+    background-color: #DBCC8F;
+}
+
+.title-regalos{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-regalos h2{
+    font-size: 30px;
+    color: #4E4E4E;
+    padding: 15px 0px;
+    border-bottom: 2px solid #4E4E4E;
+}
+
+.regalos{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item-regalos{
+    margin: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #F6F7D3;
+}
+
+.img-regalos img{
+    width: 230px;
+}
+
+.text{
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.text h3 a{
+    font-size: 20px;
+    color: #4E4E4E;
+}
+
+.text h3 a:hover{
+    text-decoration: underline;
+}
+
+
+@media  screen and (max-width: 415px) {
+    .texto-fondo h1{
+        font-size: 40px;  
+    }
+     
+    .message h2{
+        text-align: center;
+    }
+}
